@@ -1,7 +1,9 @@
 {
-  "name": "ai-api",
+  "name": "ai-gemini-api",
   "version": "1.0.0",
+  "type": "module",
   "dependencies": {
-    "openai": "^4.0.0"
+    "@google/genai": "^1.0.0",
+    "dotenv": "^16.0.0"
   }
 }
